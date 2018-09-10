@@ -82,6 +82,8 @@ Specify the provisioning method for the x509 keypair used for TLS encryption of 
 
 Specify the default username and password for the administrative we user in the the ``authentication`` subtree.
 
+Specify the IPs or subnets which allowed to access the management interfaces. It can be subnet or IP or both. 
+
 Optionally you may use the Ansible Vault mechanism as described in Step 2 to protect the confidentiality and integrity of this file as well.
 
 
